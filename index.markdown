@@ -8,7 +8,7 @@ title: Portfolio
 <h1>Game Dev Portfolio</h1>
 <div class="projects-grid">
   {% for project in site.projects %}
-  <a class="project-card" href="{{ project.url | relative_url }}">
+  <a class="project-card" >	<!--href="{{ project.url | relative_url }}"-->
 
     <div class="card-image">
       <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">

@@ -1,15 +1,15 @@
 ---
-layout: post
-title: "Laerad2"
-date: 2026-01-02
+layout: page
+title: "Lair Defense"
+date: 2026-01-01
 image: /assets/images/Laerad/Card.png
-excerpt: "Resource-based Card Game."
+excerpt: "Mobile Tower Defense game"
 ---
 ---------------------------
 
 # Project Title Here
 
-![Hero Image](/assets/images/projects/PROJECT_NAME/hero.png)
+![Hero Image] (/assets/images/Laerad/Screen4.png)
 
 ## Overview
 
@@ -24,7 +24,7 @@ Explain what the game is, the core idea, and what makes it interesting.
 
 ## Gameplay
 
-![Gameplay Screenshot 1](/assets/images/projects/PROJECT_NAME/gameplay-1.png)
+![Gameplay Screenshot 1] (/assets/images/Laerad/Screen4.png)
 
 Describe core gameplay mechanics here.
 What does the player do moment-to-moment?
@@ -40,7 +40,7 @@ What does the player do moment-to-moment?
 
 ## Development
 
-![Development Screenshot](/assets/images/projects/PROJECT_NAME/dev.png)
+![Development Screenshot](/assets/images/Laerad/Screen4.png)
 
 Explain how the project was built.
 
@@ -64,9 +64,9 @@ Describe what you personally worked on:
 
 ## Gallery
 
-![Screenshot 2](/assets/images/projects/PROJECT_NAME/screenshot-2.png)
-![Screenshot 3](/assets/images/projects/PROJECT_NAME/screenshot-3.png)
-![Screenshot 4](/assets/images/projects/PROJECT_NAME/screenshot-4.png)
+![Screenshot 2](/assets/images/Laerad/Screen4.png)
+![Screenshot 2](/assets/images/Laerad/Screen4.png)
+![Screenshot 2](/assets/images/Laerad/Screen4.png)
 
 
 ## Download / Play
