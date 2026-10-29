@@ -21,7 +21,7 @@
 title: Erik Gattermann Portfolio
 email: e.gattermann@li-ga.de
 description: >- # this means to ignore newlines until "baseurl:"
-  This page hosts the portfolio of the aspiring game developer Erik Gattermann.  
+   
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

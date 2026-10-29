@@ -1,0 +1,9 @@
+<a class="project-card" href="{{ include.project.url | relative_url }}">
+  <div class="card-image">
+    <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.title }}">
+  </div>
+  <div class="card-content">
+    <h2>{{ include.project.title }}</h2>
+    <p>{{ include.project.excerpt }}</p>
+  </div>
+</a>

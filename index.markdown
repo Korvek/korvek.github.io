@@ -6,20 +6,34 @@ layout: home
 title: Portfolio
 ---
 <h1>Game Dev Portfolio</h1>
+
+{% assign solo = site.projects | where: "category", "solo" %}
+{% assign prototypes = site.projects | where: "category", "prototype" %}
+{% assign others = site.projects | where_exp: "p", "p.category != 'solo'" | where_exp: "p", "p.category != 'prototype'" %}
+
+{% if solo.size > 0 %}
+<h2 class="section-title">Solo Dev</h2>
 <div class="projects-grid">
-  {% for project in site.projects %}
-  <a class="project-card" >	<!--href="{{ project.url | relative_url }}"-->
-
-    <div class="card-image">
-      <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
-    </div>
-
-    <div class="card-content">
-      <h2>{{ project.title }}</h2>
-      <p>{{ project.excerpt }}</p>
-    </div>
-
-  </a>
+  {% for project in solo %}
+    {% include project-card.html project=project %}
   {% endfor %}
-
 </div>
+{% endif %}
+
+{% if prototypes.size > 0 %}
+<h2 class="section-title">Prototypings</h2>
+<div class="projects-grid">
+  {% for project in prototypes %}
+    {% include project-card.html project=project %}
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if others.size > 0 %}
+<h2 class="section-title">Others</h2>
+<div class="projects-grid">
+  {% for project in others %}
+    {% include project-card.html project=project %}
+  {% endfor %}
+</div>
+{% endif %}

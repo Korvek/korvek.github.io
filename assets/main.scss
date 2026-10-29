@@ -4,6 +4,20 @@
 
 @import "minima";
 
+body {
+  background-color: #303a63;
+  color: #3a3a3a;
+}
+
+h1, h2, h3, h4 {
+  color: #ffffff;
+}
+  
+a,
+a:link,
+a:visited {
+  color: #9fb4ff;
+}
 
 .projects-grid {
   display: grid;
@@ -13,17 +27,38 @@
   align-items: stretch;
 }
 
+.project-card:visited,
 .project-card {
   display: block;
   text-decoration: none;
-  color: inherit;
+  color: #e8eaf6;
   border-radius: 12px;
   overflow: hidden;
-  background: #5a5a5a;
+  background: #3c4775;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   /* IMPORTANT: prevent full-width override */
   width: 100%;
   min-width: 0;
+}
+
+.section-title {
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #8088BF;
+}
+
+.site-header {
+  border-color: #8088BF;
+}
+
+.site-title,
+.site-title:visited,
+.site-nav .page-link {
+  color: #e8eaf6;
+}
+
+.site-footer {
+  color: #aab0d0;
 }
 
 .project-card:hover {
