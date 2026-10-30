@@ -6,22 +6,19 @@ image: /assets/images/Laerad/Card.png
 excerpt: "Resource-based Card game"
 category: solo  
 ---
----------------------------
 
 ![Hero Image](/assets/images/Laerad/Screen4.png)
 
-
-
-# A turn-based card game developed with Unreal Engine 5 as a graduation project for the School of Games. Inspired by the game Arcomage the goal of the project was to develop a computer opponent with different playstyles.
+### A turn-based card game developed in Unreal Engine 5 as a graduation project at the School of Games. Inspired by Arcomage, the project focused on building a computer opponent with different playstyles.
 
 ![Gameplay Screenshot 1](/assets/images/Laerad/Screen5.png)
 
-# The goal of the players is to use their cards and resources to either destroy the enemy candle or reach a certain height with their own candle.
+### The goal of the players is to use their cards and resources to either destroy the enemy candle or reach a certain height with their own candle.
 
 ![Development Screenshot](/assets/images/Laerad/Screen2.png)
 
-# All used Assets except the card icons where created by me with Maya, Substance Painter and Krita.
-# Icons where taken from [game-icons.net](https://game-icons.net/).
+### All used Assets except the card icons where created by me with Maya, Substance Painter and Krita.
+### Icons where taken from [game-icons.net](https://game-icons.net/).
 
 ![Screenshot 2](/assets/images/Laerad/Screen1.png)
 

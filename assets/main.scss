@@ -4,6 +4,12 @@
 
 @import "minima";
 
+.wrapper {
+  max-width: 1000px;   /* raise for wider content, e.g. 1400px */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 body {
   background-color: #303a63;
   color: #3a3a3a;
@@ -86,4 +92,26 @@ a:visited {
   margin: 0;
   opacity: 0.8;
   font-size: 0.95rem;
+}
+
+.image-row {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.image-row img {
+  flex: 1 1 0;       /* equal width, shrink to fit */
+  min-width: 0;      /* lets images shrink below their natural size */
+  height: auto;
+  border-radius: 6px;
+}
+
+.post-content img {
+  max-height: 55vh;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
