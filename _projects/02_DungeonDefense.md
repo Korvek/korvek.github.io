@@ -3,7 +3,7 @@ layout: page
 title: "Layr Defense"
 date: 2026-01-01
 image: /assets/images/DungeonDefense/01.png
-excerpt: "Mobile Tower Defense game"
+excerpt: "Mobile tower defense game"
 category: solo  
 ---
 

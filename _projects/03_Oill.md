@@ -3,17 +3,17 @@ layout: page
 title: "O.Ill"
 date: 2026-01-01
 image: /assets/images/OIll/Card.png
-excerpt: "Mobile Tower Defense game"
+excerpt: "2.5D Platformer"
 category: prototype  
 ---
 
 ![Hero Image](/assets/images/OIll/01.png)
 
-# A 2.5D Platformer developed as a prototype in three weeks in a team of four for the School of Games. The theme of this prototyping was "future themes", centered on an enviromental crisis with a sinking oil tanker.
+### A 2.5D Platformer developed as a prototype in three weeks in a team of four for the School of Games. The theme of this prototyping was "future themes", centered on an enviromental crisis with a sinking oil tanker.
 
 ![Gameplay Screenshot 1](/assets/images/OIll/02.png)
 
-# Players aim to repair the sinking tanker to prevent an oil spill, while avoiding hazards like gas leaks and oily monsters.
+### Players aim to repair the sinking tanker to prevent an oil spill, while avoiding hazards like gas leaks and oily monsters.
 ![Development Screenshot](/assets/images/OIll/03.png)
 
 ### All assets used in this prototype were created by our team during development. We recorded our own animations using motion capture. I was the main gameplay programmer, responsible for the player controls and game logic. I also cleaned up the recorded motion capture animations.

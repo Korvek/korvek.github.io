@@ -2,8 +2,8 @@
 layout: page
 title: "Laerad"
 date: 2026-01-01
-image: /assets/images/Laerad/Card.png
-excerpt: "Resource-based Card game"
+image: /assets/images/Laerad/Screen4.png
+excerpt: "Turn-based card game"
 category: solo  
 ---
 

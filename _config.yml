@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Erik Gattermann Portfolio
+title: Erik Gattermann | Gameplay Programmer
 email: e.gattermann@li-ga.de
-description: >- # this means to ignore newlines until "baseurl:"
+description: Gameplay programmer working with Unreal Engine and Unity. 
    
   
 baseurl: "" # the subpath of your site, e.g. /blog

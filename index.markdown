@@ -5,8 +5,6 @@
 layout: home
 title:  
 ---
-<h1>Game Developer Portfolio</h1>
-
 {% assign solo = site.projects | where: "category", "solo" %}
 {% assign prototypes = site.projects | where: "category", "prototype" %}
 {% assign others = site.projects | where_exp: "p", "p.category != 'solo'" | where_exp: "p", "p.category != 'prototype'" %}
@@ -21,7 +19,7 @@ title:
 {% endif %}
 
 {% if prototypes.size > 0 %}
-<h2 class="section-title">Prototypings</h2>
+<h2 class="section-title">Prototypes</h2>
 <div class="projects-grid">
   {% for project in prototypes %}
     {% include project-card.html project=project %}

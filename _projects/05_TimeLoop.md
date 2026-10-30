@@ -2,15 +2,15 @@
 layout: page
 title: "Time Loop"
 date: 2026-01-01
-image: /assets/images/TimeLoop/Card.png
-excerpt: "Mobile Tower Defense game"
+image: /assets/images/TimeLoop/02.png
+excerpt: "Third-person roguelite"
 category: prototype  
 ---
 
 
 ![Hero Image](/assets/images/TimeLoop/03.png)
 
-### A 3rd Person ARPG developed as a prototype in three weeks in a team of six for the School of Games using Unreal Engine 5.
+### A 3rd Person roguelite developed as a prototype in three weeks in a team of six for the School of Games using Unreal Engine 5.
 
 ![Gameplay Screenshot 1](/assets/images/TimeLoop/01.png)
 
@@ -20,7 +20,7 @@ category: prototype
 
 ### All assets used in this prototype, except the base character model, were created by our team. My responsibilities were gameplay programming and enemy behavior logic. I used Unreal’s Gameplay Ability System to build the player and enemy attacks, and State Trees to for the enemy AI.
 
-![Screenshot 2](/assets/images/TimeLoop/04.png)
+![Screenshot 2](/assets/images/TimeLoop/06.png)
 
 ## Download / Play
 

@@ -2,8 +2,8 @@
 layout: page
 title: "Rise of the Plague"
 date: 2026-01-01
-image: /assets/images/Plague/Card.png
-excerpt: "Mobile Tower Defense game"
+image: /assets/images/Plague/03.png
+excerpt: "Stealth Horror"
 category: prototype  
 ---
 
